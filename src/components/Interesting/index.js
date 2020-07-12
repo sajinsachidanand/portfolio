@@ -33,9 +33,6 @@ class Intersting extends Component {
         </ShowMoreButton>
         <ToggleDisplay show={this.state.show}>
           <UnorderedList>
-            {interestingFacts.map(fact => (
-              <ListItem key={fact.description}>{fact.description}</ListItem>
-            ))}
           </UnorderedList>
         </ToggleDisplay>
       </Section>

@@ -40,29 +40,6 @@ class Libraries extends Component {
         </ShowMoreButton>
         <ToggleDisplay show={this.state.show}>
           <UnorderedList>
-            {libraries.map(library => (
-              <ListItem key={library.link}>
-                <Points>
-                  <Point>
-                    <UnderlinedLink
-                      target="_blank"
-                      href={library.link}
-                      rel="noopener"
-                    >
-                      {library.title}
-                    </UnderlinedLink>{" "}
-                    {library.description} Using {library.techStack}.{" "}
-                    <GithubUnderlinedLink
-                      href={library.githubhref}
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <FaGithub style={{ fontSize: "30px" }} />
-                    </GithubUnderlinedLink>{" "}
-                  </Point>
-                </Points>
-              </ListItem>
-            ))}
           </UnorderedList>
         </ToggleDisplay>
       </Section>

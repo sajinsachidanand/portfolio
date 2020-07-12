@@ -16,21 +16,6 @@ const OpenSourceCommits = () => {
     <Section>
       <SectionTitle>Open Source Contributions</SectionTitle>
       <UnorderedList>
-        {OSS.map(contribution => (
-          <ListItem key={contribution.link}>
-            <Points>
-              <Point>
-                <UnderlinedLink
-                  target="_blank"
-                  href={contribution.link}
-                  rel="noopener"
-                >
-                  {contribution.description}
-                </UnderlinedLink>
-              </Point>
-            </Points>
-          </ListItem>
-        ))}
       </UnorderedList>
     </Section>
   );

@@ -1,12 +1,11 @@
 const seo = {
-  TITLE: "Aman Mittal Portfolio",
-  AUTHOR: "Aman Mittal",
+  TITLE: "Sajin Sachidanandan Portfolio",
+  AUTHOR: "Sajin Sachidanand",
   DESCRIPTION: "Portfolio Website",
   TYPE: "WEBSITE",
-  TWITTER_USERNAME: "@amanhimself",
-  URL: "www.amanhimself.me",
-  IMAGE_URL: "https://i.imgur.com/TLvcVR4.jpg",
-  DESCRIPTION: "Aman Mittal Portfolio"
+  TWITTER_USERNAME: "@sajin_s",
+  URL: "www.sajin.dev",
+  DESCRIPTION: "Portfolio"
 };
 
 export default seo;

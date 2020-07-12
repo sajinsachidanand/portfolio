@@ -27,14 +27,6 @@ const Blogs = () => {
         </Point>
       </Points>
       <UnorderedList>
-        {blogposts.map(post => (
-          <ListItem key={post.link}>
-            <UnderlinedLink target="_blank" rel="noopener" href={post.link}>
-              {post.title}
-            </UnderlinedLink>{" "}
-            published by {post.publication}
-          </ListItem>
-        ))}
       </UnorderedList>
     </Section>
   );

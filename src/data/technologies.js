@@ -1,31 +1,23 @@
 export const devstack = [
-  { name: "JavaScript" },
+  { name: "Java" },
+  { name: "Spring Boot" },
+  { name: "Spring Security" },
   { name: "Node.js" },
   { name: "Expressjs" },
   { name: "React" },
-  { name: "Gatsbyjs" },
-  { name: "create-react-app" },
-  { name: "MongoDB / MySQL" }
+  { name: "Redux" },
+  { name: "Solace" },
+  { name: "Typescript" },
+  { name: "MongoDB / Oracle" },
+  { name: "AWS" }
 ];
 
 export const technologies = [
   "Angularjs / Angular",
-  "Meteorjs",
-  "Firebase",
-  "Redux",
-  "Ionic",
+  "Redis",
+  "Openshift",
+  "Android",
   "Bootstrap",
   "Sass",
-  "Less",
-  "Mocha",
-  "npm",
-  "Bower",
-  "Gulp",
-  "Grunt",
-  "Yeoman",
-  "Jade/Pug",
-  "Handlebars",
-  "EJS",
-  "Mocha",
-  "styled-components"
+  "npm"
 ];

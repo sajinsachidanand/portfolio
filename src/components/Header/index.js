@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import { links } from "../../data/socialLinks";
 import styles from "./header.module.css";
 
 const Header = () => (
@@ -9,12 +8,8 @@ const Header = () => (
     <div className={styles.headerMaxWidthContainer}>
       <h2 className={styles.headerH1}>
         <Link to="/" className={styles.headerLinkStyle}>
-          about
+          About
         </Link>
-        &nbsp;/&nbsp;
-        <a href={links.medium} target="_blank" rel="noopener">
-          blog
-        </a>
       </h2>
     </div>
   </div>
