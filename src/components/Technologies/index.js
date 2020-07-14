@@ -12,7 +12,7 @@ import { technologies } from "../../data/technologies";
 const Technologies = () => {
   return (
     <Section id="technologies">
-      <SectionTitle>Technogolies / Tools I've used</SectionTitle>
+      <SectionTitle>Technologies / Tools I've used</SectionTitle>
       <UnorderedList>
         <ListItem>
           <p>{technologies.join(", ")}.</p>
